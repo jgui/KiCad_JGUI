@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ALQ112
+D Panasonic relay, monostable, Single Pole, Dual Terminal, 1RT
+K Single Pole Relay SPDT 1RT
+F https://docs.rs-online.com/6724/0900766b8159833f.pdf
+$ENDCMP
+#
+$CMP G6BK-1114P
+D Omron Subminiature Sensitive SPDT Signal Switching Relay, Dual-Side Stable
+K Single Pole Relay SPDT
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6b.pdf
+$ENDCMP
+#
+$CMP RWH-SS-105D
+D Goodsky relay, monostable, Single Pole, Dual Terminal
+K Single Pole Relay SPDT
+F https://www.goodsky.com.tw/uploads/relay/general_purpose_relay/RW-RWH_relay.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TBA_1_TracoPower
+#
+DEF TBA_1_TracoPower PS 0 20 Y Y 1 F N
+F0 "PS" 0 200 50 H V C CNN
+F1 "TBA_1_TracoPower" 0 -200 50 H V C CNN
+F2 "Converter_DCDC_JGUI:Converter_DCDC_TRACO_TBA-1-xxxx_Single_THT" 0 -300 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
+ALIAS TBA_1-1211
+$FPLIST
+ Converter*ACDC*Hahn*HS*400xx*
+$ENDFPLIST
+DRAW
+S -300 150 300 -150 0 1 10 f
+P 2 0 1 0 -210 -25 -110 -25 N
+P 2 0 1 0 -210 25 -190 25 N
+P 2 0 1 0 -170 25 -150 25 N
+P 2 0 1 0 -130 25 -110 25 N
+P 2 0 1 0 110 -25 210 -25 N
+P 2 0 1 0 110 25 130 25 N
+P 2 0 1 0 150 25 170 25 N
+P 2 0 1 0 190 25 210 25 N
+P 2 1 1 0 0 -50 0 -100 N
+P 2 1 1 0 0 50 0 0 N
+P 2 1 1 0 0 150 0 100 N
+X -Vin 1 -400 -100 100 R 50 50 1 1 W
+X +Vin 2 -400 100 100 R 50 50 1 1 W
+X -Vout 3 400 -100 100 L 50 50 1 1 w
+X +Vout 4 400 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

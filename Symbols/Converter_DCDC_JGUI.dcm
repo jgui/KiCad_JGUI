@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TBA_1-1211
+D 5V output, 10.8-13.2V input, 1W, DC-DC module power supply, Traco Power
+K 5V 12V 1W DC-DC module power supply
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1_TracoPower
+D 1W, DC-DC module power supply, Traco Power
+K 1W DC-DC module power supply
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
